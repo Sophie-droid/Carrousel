@@ -1,0 +1,69 @@
+body {
+    width: 50%;
+    height: 100%;
+}
+h1{
+  width: 175%;
+  height: 100%;
+}
+
+#carrousel {
+    position: relative;
+    width: 700px;
+    height: 200px;
+    margin: 15px 550px 550px 450px;
+}
+
+#controls{
+position:absolute;
+top:1100px;
+left:38%;
+font-size: 50px;
+}
+
+#carrousel ul li {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+h1{
+  text-align: center;
+  font-size: 70px;
+}
+
+img{
+  width: 1500px;
+  height: 750px;
+}
+/*
+.next {
+float: right;
+}
+*/
+.cercle{
+  width : 40px;
+  height: 40px;
+  border-radius: 20px;
+  background:grey;
+  display:inline-block;
+}
+.selected{
+background:black;
+
+}
+#boiteARonds{
+position: absolute;
+top:1000px;
+left:40%;
+
+}
+footer {
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+  font-size: 40px;
+}
+
